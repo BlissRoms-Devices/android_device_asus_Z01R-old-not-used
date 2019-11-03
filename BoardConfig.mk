@@ -129,9 +129,6 @@ BOARD_USES_METADATA_PARTITION := true
 BOARD_USES_PRODUCTIMAGE := true
 TARGET_COPY_OUT_VENDOR := vendor
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/894000.i2c/i2c-3/3-0038/fts_dclick_mode"
-
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
