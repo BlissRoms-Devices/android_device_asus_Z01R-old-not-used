@@ -98,8 +98,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Property to enable Mag filter
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.sensors.enable.mag_filter=true
-
-# Gesture
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.dclick.on=1 \
-    persist.screengesture=1
