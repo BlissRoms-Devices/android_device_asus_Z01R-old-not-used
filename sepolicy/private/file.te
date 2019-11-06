@@ -1,5 +1,4 @@
 # Files in rootfs
-type adsprpcd_file, file_type;
 type demoapp_file, file_type;
 type fac_file, file_type;
 type log_file, file_type;
