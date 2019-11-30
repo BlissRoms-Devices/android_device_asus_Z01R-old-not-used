@@ -1,7 +1,3 @@
-on post-fs
-    mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
-    mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml bind
-
 on boot
     # FocalTech Gesture
     # /sys/devices/platform/soc/894000.i2c/i2c-3/3-0038/
