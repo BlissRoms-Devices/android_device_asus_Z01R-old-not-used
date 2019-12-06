@@ -77,10 +77,6 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-    BluetoothResCommon
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap
@@ -178,8 +174,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     telephony-ext
 
-#PRODUCT_BOOT_JARS += \
-#    telephony-ext
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Trust HAL
 PRODUCT_PACKAGES += \
@@ -202,5 +198,5 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     libnl
 
-#PRODUCT_BOOT_JARS += \
-#    WfdCommon
+PRODUCT_BOOT_JARS += \
+    WfdCommon
